@@ -115,6 +115,20 @@ assets/<article-slug>-illustrations/
 
 如果文章已有封面引用，应同步更新引用，不覆盖旧文件。
 
+### 转发方形安全区
+
+公众号消息列表封面按 2.35:1 显示，但被转发到对话/朋友圈时会按接近正方形裁切（大致取封面中部的一个正方形区域）。生图时要为"方形裁切"预留安全区。
+
+- 在 2.35:1 画布中设定一个居中的正方形安全区：高度 = 画布高度，宽度 = 画布高度，水平居中。
+- 主标题核心字、头像分身、核心隐喻动作，尽量完整落在这个居中正方形内，保证被裁成方图后仍然能看懂文章主题。
+- 正方形以外的左右两侧只放延展性内容：留白、指向线尾巴、次要装饰，不承载关键信息。
+- 这是尽力而为的约束：构图冲突时优先保证 2.35:1 整图的可读性与美感，方形安全区做不到也无所谓，不要为了塞进正方形而把画面挤满。
+- 提示词里应显式写明：
+
+```text
+keep the title, avatar, and core metaphor inside a centered square safe-area (square side = canvas height, horizontally centered), so the cover still reads when cropped to a square for sharing.
+```
+
 ## 输出口径
 
 生成前的策略输出要短而准。生成后的交付要包含：
