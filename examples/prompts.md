@@ -127,6 +127,6 @@ Use $cang-skill 为下面这篇文章生成配图，并保存到 workspace：
 要求：
 - 生成 4-6 张 16:9 配图
 - 按顺序命名：01-topic.png、02-topic.png……
-- 保存到 assets/<article-slug>-illustrations/
+- 保存到 assets/<article-slug>/
 - 输出每张图的用途说明
 ```
