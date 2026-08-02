@@ -36,6 +36,45 @@ Constraints:
 One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
 ```
 
+## 公众号封面提示词模板（2.35:1，封面模式专用）
+
+封面模式使用这个模板，不要套用上面的 16:9 正文配图模板（比例、构图、用色规则都不同）。
+
+```text
+Generate one standalone WeChat official-account cover illustration. Exact aspect ratio 2.35:1 (width = height × 2.35) — not 2.15:1, not 16:9.
+
+Visual DNA:
+Pure white background. Minimalist black hand-drawn line art, with thicker brush-style strokes for the title. Slightly wobbly pen lines. Sparse red handwritten Chinese for the supporting line, orange only for a single pointing/connector line. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
+
+Recurring IP character required (right side, roughly 35%-45% of canvas width):
+仓老师 (Cang Laoshi), a hand-drawn stylized human character with long hair and side-swept bangs, big expressive eyes, exaggerated theatrical expression (wide laughing mouth, playful head tilt), one hand pointing toward the title, the other hand raised open with spread fingers. Simple line-art accessories: a wide black belt and a necklace as identity markers. Top/blouse color fixed to brand green #69b076 (flat or lightly hand-shaded, not photographic, not any other color). Shown from roughly chest-up to hip — this chest-up crop is correct for cover mode and does NOT need the full-body-from-head-to-feet rule used in 16:9 body-illustration mode.
+
+Title block (left ~55%-60% of canvas):
+Large bold black hand-brushed Chinese title, at most 14 characters: {主标题}
+Below it, a shorter line in red handwritten Chinese, at most 12 characters: {补充信息}
+
+Core metaphor element:
+{一个与本篇文章主题相关的小物件或小角色}，用橙色线条从它指向标题或补充信息。每篇文章重新发明这个小元素，不要固定成同一种物件。
+
+Composition:
+Left ~55%-60%: title + red supporting line. Right ~35%-45%: 仓老师 chest-up pointing gesture. Optional small metaphor element near the boundary between the two halves, connected by exactly one orange line.
+
+Centered square safe-area:
+Keep the title, avatar, and core metaphor inside a centered square safe-area (square side = canvas height, horizontally centered), so the cover still reads when cropped to a square for sharing. This is best-effort — if it conflicts with the 2.35:1 composition, prioritize the full-width cover's readability.
+
+Color use:
+Black for line art, title, and 仓老师. Red only for the supporting subtitle line. Orange only for the single connector/pointing line. No blue in cover mode.
+
+Constraints:
+Exact 2.35:1 canvas. Keep it clean, sparse, hand-drawn. No extra UI chrome, logos, or borders. The avatar must be chest-up to hip, not full body.
+```
+
+如果手上有一张已发布的旧封面可以做构图参考，把它作为第二张图连同上面的提示词一起传给生图工具，并在提示词末尾追加：
+
+```text
+Use the attached reference image only for composition and character-gesture guidance (title-left/avatar-right layout, pointing gesture, brush-title style). Do not copy its exact colors, exact wording, or exact metaphor object — reinterpret for this new article, and always use the fixed brand green #69b076 top regardless of what color the reference shows.
+```
+
 ## 图像编辑提示
 
 去掉左上角标题：
