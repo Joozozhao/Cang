@@ -52,9 +52,10 @@ Cang/
 │   ├── prompt-template.md            # 单张生图提示词模板（含封面模式模板）
 │   └── qa-checklist.md               # 生成后检查和迭代规则（含封面追加检查）
 └── assets/
+    ├── avatar-reference.jpg          # 封面模式固定头像身份参考
     └── examples/                     # 示例图库（风格校准用）
         ├── covers/
-        │   └── 01-deepseek-v4-flash-reference.png  # 封面模式构图参考（仅供构图/姿势参考）
+        │   └── cover.jpg                     # 封面模式基准图
         ├── Canglaoshi1.png           # 认知转折：顿悟灯泡
         ├── Canglaoshi2.png           # 输入输出：怪诞机器
         ├── Canglaoshi3.png           # 常见坑：捂耳绕行

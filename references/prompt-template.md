@@ -9,7 +9,7 @@ Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required:
-仓老师 (Cang Laoshi), a hand-drawn stylized human character with long straight hair and side-swept bangs, big expressive eyes, exaggerated theatrical expressions (wide laughing mouth, surprised wide-open eyes, playful head tilt), expressive large hand gestures (hands on head, shrugging open palms, chin resting on hand, pointing or finger-hearts at viewer). Simple line-art accessories only: a wide belt line and a necklace line as identity markers, no realistic rendering. Natural realistic adult body proportions: head-to-body ratio about 1:7, normal-sized head, long legs, full body visible from head to feet by default. NOT chibi, NOT big-head, NOT short stubby legs, NOT waist-up crop (kneeling/sitting/leaning poses only when the composition clearly requires them). 仓老师 must perform the core conceptual action, not decorate the scene. Keep it clean hand-drawn line art, not a realistic portrait, not glamorous or commercial, not childish.
+仓老师 (Cang Laoshi), a hand-drawn stylized human character with long straight hair and side-swept bangs, big expressive eyes, exaggerated theatrical expressions, expressive large hand gestures. Simple line-art accessories only: a wide belt line and a necklace line as identity markers, no realistic rendering. Natural adult body proportions; NOT chibi, NOT big-head, NOT childish, not glamorous or photorealistic. In 16:9 body illustrations show full body by default; in cover mode chest-up to hip is correct. 仓老师 must perform the core conceptual action, not decorate the scene.
 
 Theme:
 {正文配图主题}
@@ -47,7 +47,7 @@ Visual DNA:
 Pure white background. Minimalist black hand-drawn line art, with thicker brush-style strokes for the title. Slightly wobbly pen lines. Sparse red handwritten Chinese for the supporting line, orange only for a single pointing/connector line. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required (right side, roughly 35%-45% of canvas width):
-仓老师 (Cang Laoshi), a hand-drawn stylized human character with long hair and side-swept bangs, big expressive eyes, exaggerated theatrical expression (wide laughing mouth, playful head tilt), one hand pointing toward the title, the other hand raised open with spread fingers. Simple line-art accessories: a wide black belt and a necklace as identity markers. Top/blouse color fixed to brand green #69b076 (flat or lightly hand-shaded, not photographic, not any other color). Shown from roughly chest-up to hip — this chest-up crop is correct for cover mode and does NOT need the full-body-from-head-to-feet rule used in 16:9 body-illustration mode.
+仓老师 (Cang Laoshi), a hand-drawn stylized human character with long hair and side-swept bangs, big expressive eyes, exaggerated theatrical expression, one hand pointing toward the title, the other hand raised open with spread fingers. Simple line-art accessories: a wide black belt and a necklace as identity markers. Top/blouse color fixed to brand green #69b076. Shown from roughly chest-up to hip — this chest-up crop is correct for cover mode and does NOT need the full-body-from-head-to-feet rule used in 16:9 body-illustration mode.
 
 Title block (left ~55%-60% of canvas):
 Large bold black hand-brushed Chinese title, at most 14 characters: {主标题}
@@ -72,7 +72,7 @@ Exact 2.35:1 canvas. Keep it clean, sparse, hand-drawn. No extra UI chrome, logo
 如果手上有一张已发布的旧封面可以做构图参考，把它作为第二张图连同上面的提示词一起传给生图工具，并在提示词末尾追加：
 
 ```text
-Use the attached reference image only for composition and character-gesture guidance (title-left/avatar-right layout, pointing gesture, brush-title style). Do not copy its exact colors, exact wording, or exact metaphor object — reinterpret for this new article, and always use the fixed brand green #69b076 top regardless of what color the reference shows.
+Use the attached reference image only for composition and character-gesture guidance (title-left/avatar-right layout, pointing gesture, brush-title style). Do not copy its exact colors, exact wording, or exact metaphor object — reinterpret for this new article, and always use the fixed brand green #69b076 top.
 ```
 
 ## 图像编辑提示

@@ -111,7 +111,7 @@ Use $cang-skill 帮我做一张公众号封面，走公众号封面模式，2.35
 仓老师：侧身，一手指向标题，一手张开举起，表情夸张大笑
 上衣颜色：品牌绿 #69b076
 
-参考图：assets/examples/covers/01-deepseek-v4-flash-reference.png
+参考图：assets/examples/covers/cover.jpg
 （仅供构图和姿势参考，不要照抄它的颜色、文字或机器人造型）
 ```
 
