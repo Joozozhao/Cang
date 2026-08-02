@@ -45,17 +45,21 @@ Cang/
 ├── SKILL.md                          # 主技能文档：工作流、输出口径
 ├── agents/
 │   └── openai.yaml                   # AI Agent 接口配置
+├── scripts/
+│   └── validate-package.py           # 发布前自检脚本
 ├── references/                       # 参考文档（按需要读取）
 │   ├── style-dna.md                  # 风格 DNA、颜色、文字、禁忌
-│   ├── cang-ip.md                    # 仓老师 IP 形象、性格、动作库
+│   ├── cang-ip.md                    # 仓老师 IP 形象、性格、动作库（含封面模式覆盖规则）
 │   ├── composition-patterns.md       # 结构类型、原创隐喻方法
 │   ├── prompt-template.md            # 单张生图提示词模板（含封面模式模板）
 │   └── qa-checklist.md               # 生成后检查和迭代规则（含封面追加检查）
+├── examples/
+│   └── prompts.md                    # 可直接复制使用的调用示例
 └── assets/
-    ├── avatar-reference.jpg          # 封面模式固定头像身份参考
+    ├── avatar-reference.jpg          # 封面模式固定头像身份参考（品牌绿上衣）
     └── examples/                     # 示例图库（风格校准用）
         ├── covers/
-        │   └── cover.jpg                     # 封面模式基准图
+        │   └── cover.jpg              # 封面模式基准图（2.35:1，已合规）
         ├── Canglaoshi1.png           # 认知转折：顿悟灯泡
         ├── Canglaoshi2.png           # 输入输出：怪诞机器
         ├── Canglaoshi3.png           # 常见坑：捂耳绕行
@@ -110,6 +114,12 @@ Cang/
 ![Canglaoshi13](assets/examples/Canglaoshi13.png)
 
 > 不再站梯子上看。仓老师双脚着地，双手用力拧阀门，精华一滴一滴落进小碗。
+
+### 公众号封面（2.35:1）
+
+![封面示例](assets/examples/covers/cover.jpg)
+
+> 左侧大字标题 + 红色补充信息，橙色线牵出核心隐喻小物件；右侧仓老师半身，品牌绿上衣，指向标题确认。
 
 ---
 
@@ -201,7 +211,7 @@ Use $cang-skill to 为这篇中文文章设计并生成几张仓老师怪诞正�
 
 ## 🔄 反复刻规则
 
-`assets/examples/` 里的图**只用于风格校准**（线条密度、留白、颜色克制、仓老师气质），**不要默认打开或复刻**。
+`assets/examples/` 里的图**只用于风格校准**（线条密度、留白、颜色克制、仓老师气质），**不要默认打开或复刻**；`assets/examples/covers/` 是封面模式专用的校准图，规则相同。
 
 除非用户明确说"照这张 / 复刻这个构图"，否则每次都要从当前文章重新发明隐喻。同类主题也要换新隐喻。
 
