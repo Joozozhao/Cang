@@ -57,63 +57,54 @@ Cang/
 │   └── prompts.md                    # 可直接复制使用的调用示例
 └── assets/
     ├── avatar-reference.jpg          # 封面模式固定头像身份参考（品牌绿上衣）
-    └── examples/                     # 示例图库（风格校准用）
-        ├── covers/
-        │   └── cover.jpg              # 封面模式基准图（2.35:1，已合规）
-        ├── Canglaoshi1.png           # 认知转折：顿悟灯泡
-        ├── Canglaoshi2.png           # 输入输出：怪诞机器
-        ├── Canglaoshi3.png           # 常见坑：捂耳绕行
-        ├── Canglaoshi4.png           # 状态变化：混乱到清晰
-        ├── Canglaoshi5.png           # 信任之桥：一块砖一块铺
-        ├── Canglaoshi6.png           # 内容发酵：拧阀门出精华
-        ├── Canglaoshi7.png           # 脑中风暴：吸管抽取
-        ├── Canglaoshi8.png           # 初稿陷阱：镜面幻觉
-        ├── Canglaoshi9.png           # 草稿到成品：皱纸变发光
-        ├── Canglaoshi10.png          # 信任之桥 v2（去标题版）
-        ├── Canglaoshi11.png          # 内容发酵 v2（主动版）
-        ├── Canglaoshi12.png          # 信任之桥 v2（已替换）
-        └── Canglaoshi13.png          # 内容发酵 v2（已替换）
+    └── examples/                     # 示例图库（风格校准用，品牌绿统一后的版本）
+        ├── covers/                   # 封面模式基准图（2.35:1）
+        │   ├── cover.jpg              # 主基准图
+        │   └── Cang-5.png             # 备选变体
+        ├── Cang-1.png                # 常见坑：假装没看见
+        ├── Cang-2.png                # 状态变化：焦虑到笃定 + 目标路径
+        ├── Cang-3.png                # 信任之桥：一块砖一块铺
+        ├── Cang-4.png                # 顿悟：混沌到看懂了
+        ├── Cang-6.png                # 顿悟 v2：双气泡对照
+        ├── Cang-7.png                # 输入输出：处理机器
+        └── Cang-8.png                # 输入/处理/输出三段式
 ```
 
 ---
 
 ## 🖼️ 示例展示
 
-### 认知转折 · 顿悟
+### 常见坑 · 假装没看见
 
-![Canglaoshi1](assets/examples/Canglaoshi1.png)
+![Cang-1](assets/examples/Cang-1.png)
 
-> 仓老师双手捧脸，头顶灯泡里乱线变路径——从混沌到清晰的瞬间。
+> 警告坑就在脚边，仓老师捂耳绕道小跑而过，蓝色批注"假装没看见"点破心态。
 
-### 输入输出闭环
+### 状态变化 · 焦虑到笃定
 
-![Canglaoshi2](assets/examples/Canglaoshi2.png)
+![Cang-2](assets/examples/Cang-2.png)
 
-> 把想法塞进怪机器，发光球从另一端滚出来。仓老师比心确认。
-
-### 常见坑 · 选择性失聪
-
-![Canglaoshi3](assets/examples/Canglaoshi3.png)
-
-> 捂耳、闭眼、张大嘴——对警告充耳不闻的经典姿态。
-
-### 状态变化 · 混乱到清晰
-
-![Canglaoshi4](assets/examples/Canglaoshi4.png)
-
-> 左：托腮沉思，周围乱线飞舞。右：比心确认，路径清晰。橙色箭头连接两端。
+> 左：托腮被"想太多""没头绪"的乱线包围。右：比心确认，橙色路径写清四步落地动作。
 
 ### 信任之桥 · 一块砖一块铺
 
-![Canglaoshi12](assets/examples/Canglaoshi12.png)
+![Cang-3](assets/examples/Cang-3.png)
 
-> 没有大标题，没有"信任"标签。只有仓老师在悬崖边，一块砖一块砖地搭桥，对面只有一颗小红心。
+> 仓老师跪地铺砖，每块砖写一个动作节点，对岸只有一颗小红心，没有"信任"大标题。
 
-### 内容发酵 · 拧开阀门
+### 顿悟 · 混沌到看懂了
 
-![Canglaoshi13](assets/examples/Canglaoshi13.png)
+![Cang-4](assets/examples/Cang-4.png)
 
-> 不再站梯子上看。仓老师双脚着地，双手用力拧阀门，精华一滴一滴落进小碗。
+> 头顶乱线团变成发光灯泡，箭头甩出一条清晰路径——"看懂了"三个字收尾。
+
+### 输入输出闭环
+
+![Cang-7](assets/examples/Cang-7.png)
+
+> 一团毛线塞进"处理"机器，另一端滚出发光球。仓老师笑着确认。
+
+> 完整图库还有顿悟 v2（`Cang-6.png`）、输入/处理/输出三段式（`Cang-8.png`）等变体，见 `assets/examples/`；封面模式的两张基准图在 `assets/examples/covers/`。
 
 ### 公众号封面（2.35:1）
 
