@@ -37,6 +37,9 @@ Black for main line art and 仓老师. Orange for main flow/path/arrows. Red onl
 
 Constraints:
 One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
+
+Anatomy hard constraint:
+The character has exactly two arms and exactly two hands. Each arm must visibly connect from one shoulder through one elbow and one wrist to one hand. No extra arms, duplicate hands, fused limbs, detached hands, impossible joints, or malformed fingers. Keep the forearms and shoulder connections simple and unobscured when the character holds an object. If the pose is ambiguous, simplify the pose rather than hiding the anatomy behind the object.
 ```
 
 ## 公众号封面提示词模板（2.35:1，封面模式专用）
@@ -70,6 +73,9 @@ Black for line art, title, and 仓老师. Red only for the supporting subtitle l
 
 Constraints:
 Exact 2.35:1 canvas. Keep it clean, sparse, hand-drawn. No extra UI chrome, logos, or borders. The avatar must be chest-up to hip, not full body.
+
+Anatomy hard constraint:
+The avatar has exactly two arms and exactly two hands. Each arm must visibly connect from one shoulder through one elbow and one wrist to one hand. No extra arms, duplicate hands, fused limbs, detached hands, impossible joints, or malformed fingers. Keep any pointing or holding gesture simple and unobscured.
 ```
 
 如果手上有一张已发布的旧封面可以做构图参考，把它作为第二张图连同上面的提示词一起传给生图工具，并在提示词末尾追加：
