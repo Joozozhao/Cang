@@ -57,6 +57,8 @@ Cang/
 │   └── prompts.md                    # 可直接复制使用的调用示例
 └── assets/
     ├── avatar-reference.jpg          # 封面模式固定头像身份参考（品牌绿上衣）
+    ├── character-halfbody-expressions.png # 半身表情与手势基础库
+    ├── character-fullbody-poses.png  # 全身姿态与动作基础库
     └── examples/                     # 示例图库（风格校准用，品牌绿统一后的版本）
         ├── covers/                   # 封面模式基准图（2.35:1）
         │   ├── cover.jpg              # 主基准图
@@ -74,25 +76,25 @@ Cang/
 
 ## 🖼️ 示例展示
 
-### 常见坑 · 假装没看见
+### 顿悟 · 混沌到看懂了
 
 ![Cang-1](assets/examples/Cang-1.png)
 
 > 警告坑就在脚边，仓老师捂耳绕道小跑而过，蓝色批注"假装没看见"点破心态。
 
-### 状态变化 · 焦虑到笃定
+### 输入输出闭环
 
 ![Cang-2](assets/examples/Cang-2.png)
 
 > 左：托腮被"想太多""没头绪"的乱线包围。右：比心确认，橙色路径写清四步落地动作。
 
-### 信任之桥 · 一块砖一块铺
+### 常见坑 · 假装没看见
 
 ![Cang-3](assets/examples/Cang-3.png)
 
 > 仓老师跪地铺砖，每块砖写一个动作节点，对岸只有一颗小红心，没有"信任"大标题。
 
-### 顿悟 · 混沌到看懂了
+### 状态变化 · 混乱到清晰
 
 ![Cang-4](assets/examples/Cang-4.png)
 
@@ -102,7 +104,7 @@ Cang/
 
 ![Cang-7](assets/examples/Cang-7.png)
 
-> 一团毛线塞进"处理"机器，另一端滚出发光球。仓老师笑着确认。
+> 仓老师从蓝色信息风暴中抽出几条橙色重点线，表达从噪音中提炼重点。
 
 > 完整图库还有顿悟 v2（`Cang-6.png`）、输入/处理/输出三段式（`Cang-8.png`）等变体，见 `assets/examples/`；封面模式的两张基准图在 `assets/examples/covers/`。
 
