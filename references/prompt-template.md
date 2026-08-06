@@ -11,6 +11,9 @@ Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen
 Recurring IP character required:
 仓老师 (Cang Laoshi), a hand-drawn stylized human character with long straight hair and side-swept bangs, big expressive eyes, exaggerated theatrical expressions, expressive large hand gestures. Simple line-art accessories only: a wide belt line and a necklace line as identity markers, no realistic rendering. Natural adult body proportions; NOT chibi, NOT big-head, NOT childish, not glamorous or photorealistic. In 16:9 body illustrations show full body by default; in cover mode chest-up to hip is correct. 仓老师 must perform the core conceptual action, not decorate the scene.
 
+Identity references:
+Use `assets/character-halfbody-expressions.png` for face, hair, expression, and near-camera hand gestures; use `assets/character-fullbody-poses.png` for full-body proportion, stance, and action guidance. Use a single suitable pose or expression as inspiration; never paste or reproduce the nine-panel sheet as a collage.
+
 Theme:
 {正文配图主题}
 

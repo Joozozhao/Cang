@@ -21,6 +21,8 @@ description: 生成仓老师风格的中文正文配图。用于用户要求为�
 - `references/prompt-template.md`：单张生图提示词模板。
 - `references/qa-checklist.md`：生成后检查和迭代规则。
 - `assets/avatar-reference.jpg`：封面模式固定头像身份参考（半身、侧分刘海、大眼睛、宽腰带、项链、品牌绿上衣）。
+- `assets/character-halfbody-expressions.png`：半身表情与手势基础库。
+- `assets/character-fullbody-poses.png`：全身姿态与动作基础库。
 - `assets/examples/`：仓老师风格的校准图库（正文配图基准图直接放在这层，封面模式基准图放在 `assets/examples/covers/`）。只作低频视觉校准，不进入默认生成路径，不要照抄构图、物件或标注。生成出满意的图后可以存进来当新基准。
 
 ## 工作流
